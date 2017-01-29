@@ -1,0 +1,364 @@
+/*Nombre:Ardiel 
+  Apellidos:Garcia Rodriguez
+  Tarea: Practica 1
+*/
+
+11.- Python v 2.7.6
+
+12.- /usr/bin/python
+
+14.- No, porque no tiene permisos de ejecucion
+
+17.- 
+	>>> 2+9
+	11
+	>>> 4*4
+	16
+	>>> 4/2
+	2
+
+18.-
+	>>> print "hola mundo"
+	hola mundo
+
+19.- Devuelve el resultado entero de la division
+
+20.- el operador de potencia, eleva un numero a una potencia 
+Ej.
+	>>> 2**3
+	8
+
+
+21.- Devuelve el resto de una division
+Ej.
+	>>> 2%2
+	0
+	>>> 5%2
+	1
+
+22.-
+
+En todas las expresiones se asigna el resultado a la variable de la izquierda del operando
+  += Suma a la variable que está a la izquierda el valor o variable a la derecha, equivalente a valor = valor + valor2
+	>>> a += 2
+	>>> a
+	10	
+
+  -= Resta el valor de la derecha al de la izquierda
+	>>> a = 48
+	>>> a -= 40
+	>>> a
+	8
+
+  *= Multiplica el valor de la derecha al de la izquierda
+	>>> a = 16
+	>>> a *= 3
+	>>> a
+	48
+  
+  /= Divide el valor al valor de la izquierda el valor de la derecha
+	>>> a = 4
+	>>> a /= 3
+	>>> a
+	1
+  
+  **= Eleva a la potencia puesta a la derecha el valor de la izquierda del operando
+	>>> a = 4
+	>>> a **=2
+	>>> a
+	16
+
+  //= Hace la division entera  al valor de la izquierda el valor de la derecha
+
+23.-
+
+  a) 8 , si  es el mismo resultado
+
+  b) 7, si es el mismo resultado
+
+  c) 7, si es el mismo resultado
+
+  d) 15, si es el mismo resultado
+
+  e)-6, si es el mismo resutlado
+
+  f) 6, si es el mismo resultado
+
+24.-
+  
+  El valor de x es: -4
+
+25.-
+  
+  a)>>> 2+(3*(6/2))
+    11
+
+  b)>>> (4/2)**5
+    32
+
+  c)>>> (4+6)/(2+3)
+    2
+
+  d)>>> (-3)**2
+    9
+
+  e)>>> (4/2)**(5+1)
+    64
+
+  f)>>> -3**2
+    -9
+
+26.-
+
+  a)0.0
+
+  b)1.0
+
+  c)0.125
+
+  d)1.0
+
+  e)0.125
+
+  f)300.0
+
+  g)0.125
+
+  h)2.0
+
+  i)2.5
+
+En todos los casos devuelve floats por el tipo de datos utilizados
+
+27.-
+
+  a) True
+
+  b) 0
+
+  c) True
+
+  d) False
+
+  e) 0
+
+  f) True
+
+  g) False
+
+  h) False
+  
+  i) False
+
+  j) True
+
+  k) True 
+
+  l) True
+
+  m) False
+
+28.-
+
+  a) int
+
+  b) float
+ 
+  c) bool
+  
+  d) bool
+
+  e) true
+
+  f) true
+
+  g) true
+
+  h) true
+
+  i) true
+
+  j) false
+
+  k) false
+
+  l) true
+
+  m) false
+
+29.-
+  Devuelve el valor absoluto 
+
+30.-
+   Devuelve el numero redondeado en float, y necesita convertirlo a float
+
+31.-
+  Devuelve el valor entero de un numero que este en base 10, no acepta otra cosa
+
+32.-
+  Devuelve el valor en float de un numero, no puede convertir algo no numerico a float
+
+33.-
+  'El patio de mi casa ...dubididu lalala lalala lalala lalala '
+
+34.-
+
+  a) 'a'
+  Asigna el caracter 'a' a la variable a
+
+  b)'ab'
+  Concatena el caracter 'b' a la variable a
+
+  c)'a1'
+  concatena el caracter '1' a la variable a
+
+  d)'aabbb'
+  Repite 2 veces el contenido de la variable a y le concatena 3 repeticiones del caracter 'b'
+
+  e) 'abab'
+  Repite 2 veces la concatenacion del contenido de la variable a y el caracter 0b'
+ 
+
+35.-
+  a) 'aaa/*/*/*/*/*abcabc+' => Si, coincide
+
+  b)'<<<<abcba>>>><<<<abcba>>>>' => Si, coincide
+
+  c)'1010101010=---==---==---==---=' => Si, coincide
+
+  d)'1212.333e-76767676' => Si coincide
+
+36.-
+  p1/src/repetir_nombre.py
+
+37.-
+
+  a) a = 'PHYTON'
+  b) b= 'python'
+  c) False
+  d) True
+  e) True
+
+38.-
+
+  a) True
+  b) False
+  c) True
+  d) False
+  e) False
+  f) True
+  g) False
+
+39.-
+  No puede concatenar un int a un string o float
+
+40.-
+  Transforma un tipo numerico en un string
+
+41.-
+
+  a) error
+  b) 6
+  c) '33'
+
+42.-
+
+  a)'P'
+  b)Indice fuera de rango
+  c)variable no definida
+
+43.-
+
+  a)'PYT'
+  b)'TH'
+ 
+44.-
+
+  a)'N'
+  b)'O'
+  c)'H'
+   Recorre la cadena de atras para adelante
+
+45.-
+  a) Lee desde ese punto en adelante
+  b) Lee desde el principio hasta ese punto
+  c) Lee toda la cadena
+
+46.-
+
+  a)2
+  b)34.3
+  c)0.28
+  d)No se puede concatenar un int a un string
+  e)No se puede concatener un float a un string
+  f)'5.0'
+
+47.-
+  >>> abs(round(-3.2))
+  3.0
+
+48.-
+  >>> print '%6.3f' %(5011/10000)
+ 0.000
+
+49.-
+
+  a) 1
+  b) 12
+  c) 12
+  d) 1,2
+  e) 1 2 
+  f) 1 2
+
+50.-
+  Se sustituye el %s en el primer ejemplo por el string que esta al final de la linea
+
+51.-
+
+  a) Si, porque cumple con las normas
+  b) No, un identificador no puede ir acentuado
+  c) Si, cumple con las normas
+  d) No, no se pueden usar un identificador compuesto por dos palabras
+  e) No, es una palabra reservada
+  f) No, porque un identificador no puede ser un numero
+  g) No, no se puede usar operadores como identificadores
+  h) No, no se puede usar guiones como identificadores
+  i) No, no se puede usar identificadores que comiencen por numeros
+  j) Si, porque empieza por una letra aunque al final haya un numero
+  k) No, no reconce el caracter ñ
+  l) No, no se puede usar el simbolo ! como identificador
+  m) No, un string no puede ser un identifador
+  n) No, un simbolo no puede usarse como identifcador
+  o) No, es una funcion no puede usarse como identificador
+  p) No, no se puede usar un operador como identificador
+  q) No, no se puede usar . como parte de un identificador
+  r) Si, _ es valido ya que no es un operador ni un numero
+  s) Si, cumple con las normas
+  t) Si, _ es valido ya que no es un operador ni un numero
+
+52.-
+  >>> float(x**4+x**3+(1/2)**2-x)
+  10990.0
+
+53.-
+  p1/src/media.py
+
+54.-
+  p1/src/calculointeres.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

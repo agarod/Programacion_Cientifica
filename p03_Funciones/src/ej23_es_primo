@@ -1,0 +1,35 @@
+#!/usr/bin/python
+# encoding: utf-8
+import sys
+import random
+'''
+   __author__: "Ardiel Garcia Rodriguez"
+   __email__: "alu0100266382@ull.edu.es"_
+   __numero de ejercicio__: 11
+   __enunciado__:Escribir una funcion es_Primo que diga si es primo o no y a
+   continuacion hacer una funcion que devuelva dos los numeros primos entr
+   un numero y 1
+   __status__: "Terminado"
+'''
+def es_Primo(num):
+    if num < 2: return False
+    for i in range(2,num):
+        if (num%i==0):
+            return False
+    return True
+
+def muestra_primo(num):
+    while num !=0:
+        if (es_Primo(num) == True):
+            print num
+        num = num - 1
+        if (num == 1):
+            print num
+
+try:
+
+    muestra_primo(int(sys.argv[1]))
+
+except:
+    print 'Este programa es un dado electronico \n\n'
+    print 'la forma correcta de ejecutar este programa es', sys.argv[0]

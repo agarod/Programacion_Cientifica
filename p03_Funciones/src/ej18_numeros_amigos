@@ -1,0 +1,39 @@
+#!/usr/bin/python
+# encoding: utf-8
+import sys
+'''
+   __author__: "Ardiel Garcia Rodriguez"
+   __email__: "alu0100266382@ull.edu.es"_
+   __numero de ejercicio__: 11
+   __enunciado__:Escriba una funcion que determine (mediante la devolucion
+     de True o False) si dos numeros dados son amigos. Una paeja de enteros
+     positivos a y b se llman numeros amigos si a es la suma de los 
+     divisores propios de b y bes la suma de los divisores propios de a
+   __status__: "Terminado"
+'''
+
+def numeros_amigos(numero):
+    suma = 0
+    for i in range(1,numero):
+        if numero % i == 0:
+            suma = suma + i
+    return suma
+
+def comprobar(numero1, numero2):
+    if numeros_amigos(numero1) == numero2 and numeros_amigos(numero2) == numero1:
+        return True
+    else:
+        return False
+
+try:
+    numero1 = int(sys.argv[1])
+    numero2 = int(sys.argv[2])
+    print comprobar(numero1, numero2)
+        
+        
+except:
+
+    print 'Este programa comprueba si dos numeros son amigos \n\n'
+    print 'la forma correcta de ejecutar este programa es', sys.argv[0], 'numero1 numero2'
+
+
